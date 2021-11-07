@@ -5,7 +5,8 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/', component: '@/pages/index' },
+    { path: '/', component: '@/pages/index' }, // 首页
+    { path: '/example', component: '@/pages/example/index' }, // 例子页
   ],
   fastRefresh: {},
 });

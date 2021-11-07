@@ -18,3 +18,11 @@
 /src/.umi-production
 /src/.umi-test
 /.env.local
+
+# Personal
+.vscode/
+yarn.lock
+.yarn.lock
+*.tar.gz
+.zip
+.git
